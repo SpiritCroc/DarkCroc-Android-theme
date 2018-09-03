@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<substratum>
+    <wallpaper id="0100-black">
+        <link>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/master/wallpapers/0100-black.png</link>
+        <preview>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/master/wallpapers/0100-black.png</preview>
+    </wallpaper>
+</substratum>

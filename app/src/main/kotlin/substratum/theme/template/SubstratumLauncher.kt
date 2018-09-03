@@ -16,6 +16,8 @@ import com.github.javiersantos.piracychecker.enums.InstallerID
 import com.github.javiersantos.piracychecker.enums.PiracyCheckerCallback
 import com.github.javiersantos.piracychecker.enums.PiracyCheckerError
 import com.github.javiersantos.piracychecker.enums.PirateApp
+import de.spiritcroc.darkcroc.substratum.BuildConfig
+import de.spiritcroc.darkcroc.substratum.R
 import substratum.theme.template.AdvancedConstants.ENFORCE_MINIMUM_SUBSTRATUM_VERSION
 import substratum.theme.template.AdvancedConstants.MINIMUM_SUBSTRATUM_VERSION
 import substratum.theme.template.AdvancedConstants.ORGANIZATION_THEME_SYSTEMS

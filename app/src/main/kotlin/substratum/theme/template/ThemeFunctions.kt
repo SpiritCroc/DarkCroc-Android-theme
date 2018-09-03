@@ -9,6 +9,8 @@ import android.content.pm.Signature
 import android.net.Uri
 import android.os.RemoteException
 import android.widget.Toast
+import de.spiritcroc.darkcroc.substratum.BuildConfig
+import de.spiritcroc.darkcroc.substratum.R
 import substratum.theme.template.AdvancedConstants.BLACKLISTED_APPLICATIONS
 import substratum.theme.template.AdvancedConstants.MINIMUM_SUBSTRATUM_VERSION
 import substratum.theme.template.AdvancedConstants.OTHER_THEME_SYSTEMS
