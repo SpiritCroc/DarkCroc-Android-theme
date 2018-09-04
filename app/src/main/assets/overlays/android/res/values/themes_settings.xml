@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+
+    <!-- Default theme for Settings and activities launched from Settings. -->
+    <style name="Theme.Material.Settings" parent="@android:style/Theme.Material">
+        <item name="android:homeAsUpIndicator">@*android:drawable/ic_ab_back_material_settings</item>
+        <item name="android:colorPrimary">@*android:color/primary_material_settings</item>
+        <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_settings</item>
+        <item name="android:colorSecondary">@*android:color/secondary_material_settings</item>
+
+        <item name="android:presentationTheme">@*android:style/Theme.Material.Settings.Dialog.Presentation</item>
+        <item name="@*android:attr/searchDialogTheme">@*android:style/Theme.Material.Settings.SearchBar</item>
+        <item name="@*android:attr/panelMenuListTheme">@*android:style/Theme.Material.Settings.CompactMenu</item>
+    </style>
+
+    <!-- Default theme for Settings and activities launched from Settings. -->
+    <style name="Theme.Material.Settings.NoActionBar" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:colorPrimary">@*android:color/primary_material_settings</item>
+        <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_settings</item>
+        <item name="android:colorSecondary">@*android:color/secondary_material_settings</item>
+
+        <item name="android:presentationTheme">@*android:style/Theme.Material.Settings.Dialog.Presentation</item>
+        <item name="@*android:attr/searchDialogTheme">@*android:style/Theme.Material.Settings.SearchBar</item>
+        <item name="@*android:attr/panelMenuListTheme">@*android:style/Theme.Material.Settings.CompactMenu</item>
+    </style>
+
+    <style name="Theme.Material.Settings.BaseDialog" parent="@*android:style/Theme.Material.BaseDialog">
+        <item name="android:colorPrimary">@*android:color/primary_material_settings</item>
+        <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_settings</item>
+        <item name="android:colorSecondary">@*android:color/secondary_material_settings</item>
+    </style>
+
+    <style name="Theme.Material.Settings.Dialog" parent="@*android:style/Theme.Material.Settings.BaseDialog" />
+
+    <style name="Theme.Material.Settings.Dialog.BaseAlert" parent="@*android:style/Theme.Material.Dialog.BaseAlert">
+        <item name="android:colorPrimary">@*android:color/primary_material_settings</item>
+        <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_settings</item>
+        <item name="android:colorSecondary">@*android:color/secondary_material_settings</item>
+    </style>
+
+    <style name="Theme.Material.Settings.Dialog.Alert" parent="@*android:style/Theme.Material.Settings.Dialog.BaseAlert" />
+
+    <style name="Theme.Material.Settings.DialogWhenLarge" parent="@android:style/Theme.Material.DialogWhenLarge">
+        <item name="android:colorPrimary">@*android:color/primary_material_settings</item>
+        <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_settings</item>
+        <item name="android:colorSecondary">@*android:color/secondary_material_settings</item>
+    </style>
+
+    <style name="Theme.Material.Settings.DialogWhenLarge.NoActionBar" parent="@android:style/Theme.Material.DialogWhenLarge.NoActionBar">
+        <item name="android:colorPrimary">@*android:color/primary_material_settings</item>
+        <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_settings</item>
+        <item name="android:colorSecondary">@*android:color/secondary_material_settings</item>
+    </style>
+
+    <style name="Theme.Material.Settings.Dialog.Presentation" parent="@android:style/Theme.Material.Dialog.Presentation">
+        <item name="android:colorPrimary">@*android:color/primary_material_settings</item>
+        <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_settings</item>
+        <item name="android:colorSecondary">@*android:color/secondary_material_settings</item>
+    </style>
+
+    <style name="Theme.Material.Settings.SearchBar" parent="@*android:style/Theme.Material.SearchBar">
+        <item name="android:colorPrimary">@*android:color/primary_material_settings</item>
+        <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_settings</item>
+        <item name="android:colorSecondary">@*android:color/secondary_material_settings</item>
+    </style>
+
+    <style name="Theme.Material.Settings.CompactMenu" parent="@*android:style/Theme.Material.CompactMenu">
+        <item name="android:colorPrimary">@*android:color/primary_material_settings</item>
+        <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_settings</item>
+        <item name="android:colorSecondary">@*android:color/secondary_material_settings</item>
+    </style>
+</resources>

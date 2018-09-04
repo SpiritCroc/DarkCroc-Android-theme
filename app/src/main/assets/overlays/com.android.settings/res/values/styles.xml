@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <style name="Theme.SettingsBase" parent="@android:style/Theme.Material">
+        <item name="android:colorAccent">@*android:color/accent_device_default_dark</item>
+    </style>
+
+    <style name="Theme.ActionBar" parent="@android:style/Widget.DeviceDefault.ActionBar.Solid">
+        <item name="android:contentInsetStart">@*com.android.settings:dimen/actionbar_contentInsetStart</item>
+        <item name="android:colorAccent">@*android:color/accent_device_default_dark</item>
+    </style>
+
+
+    <style name="ThemeOverlay.SwitchBar.Settings" parent="@*android:style/ThemeOverlay.DeviceDefault.Dark.ActionBar.Accent">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="@*com.android.settings:attr/switchBarMarginStart">@*com.android.settings:dimen/switchbar_subsettings_margin_start</item>
+        <item name="@*com.android.settings:attr/switchBarMarginEnd">@*com.android.settings:dimen/switchbar_subsettings_margin_end</item>
+        <item name="@*com.android.settings:attr/switchBarBackgroundColor">@*android:color/material_grey_800</item>
+        <item name="@*com.android.settings:attr/switchBarBackgroundActivatedColor">@*android:color/accent_device_default_dark</item>
+        <item name="android:colorAccent">@*android:color/accent_device_default_dark</item>
+        <item name="android:colorSecondary">@*android:color/material_grey_800</item><!--Used as bg in drawable/switchbar_background-->
+    </style>
+
+    <style name="Theme.AlertDialog" parent="@*android:style/Theme.DeviceDefault.Settings.Dialog.Alert">
+        <item name="android:windowSoftInputMode">adjustResize</item>
+
+        <!-- Redefine the ActionBar style for contentInsetStart -->
+        <item name="android:actionBarStyle">@style/Theme.ActionBar</item>
+    </style>
+
+    <!--
+    <style name="SuggestionConditionStyle">
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
+    </style>
+    -->
+</resources>

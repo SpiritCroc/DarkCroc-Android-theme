@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <color name="material_empty_color_light">@*android:color/material_grey_800</color>
+
+    <color name="running_processes_system_ram">#ffeeeeee</color>
+    <color name="running_processes_apps_ram">@*android:color/accent_device_default_dark</color>
+    <color name="running_processes_free_ram">#ff424242</color>
+
+    <!--color name="lock_pattern_background">#00000000</color-->
+    <color name="lock_pattern_view_regular_color">#bdbdbd</color>
+    <!--color name="lock_pattern_view_success_color">@*android:color/accent_device_default_dark</color-->
+    <!--color name="lock_pattern_view_error_color">#fff4511e</color-->
+
+    <!-- Condition card colors (airplane mode, dnd, ...) -->
+    <color name="condition_card_background_color">#ff424242</color>
+    <color name="condition_card_icon_color">@*android:color/accent_device_default_dark</color>
+    <color name="condition_card_header_icon_color">@*android:color/accent_device_default_dark</color>
+    <color name="condition_card_title_text_color">#ffffffff</color>
+    <color name="condition_card_expander_color">#ffffffff</color>
+    <color name="condition_card_summary_text_color">#ffffffff</color>
+    <color name="condition_card_divider_color">#ffffffff</color>
+    <color name="condition_card_first_button_text_color">#ffffffff</color>
+    <color name="condition_card_second_button_text_color">#ffffffff</color>
+    <color name="condition_card_count_text_color">@*android:color/accent_device_default_dark</color>
+
+    <!-- Suggestion card -->
+    <color name="suggestion_card_background_color">@*android:color/background_floating_material_dark</color>
+    <color name="suggestion_card_icon_tint_color">@*android:color/accent_device_default_dark</color>
+    <color name="suggestion_card_title_text_color">@*android:color/primary_text_material_dark</color>
+    <color name="suggestion_card_summary_text_color">@*android:color/secondary_text_material_dark</color>
+    <color name="suggestion_card_collapsed_summary_text_color">@android:color/white</color>
+    <color name="suggestion_card_collapsed_title_text_color">@android:color/white</color>
+    <color name="suggestion_card_more_text_color">@android:color/white</color>
+
+    <!-- Suggestion and Condition card header -->
+    <color name="suggestion_condition_card_header_title_text_color">@*android:color/accent_device_default_dark</color>
+    <color name="suggestion_condition_card_header_summary_text_color">@*android:color/accent_device_default_dark</color>
+
+    <color name="memory_normal">@*android:color/accent_device_default_dark</color>
+
+    <color name="storage_public">@*android:color/accent_device_default_dark</color>
+    <!--color name="storage_warning">#fff4511e</color-->
+    <color name="storage_private_1">@*android:color/accent_device_default_dark</color>
+    <color name="storage_private_2">@*android:color/accent_device_default_dark</color>
+    <color name="storage_private_3">@*android:color/accent_device_default_dark</color>
+    <color name="storage_private_4">@*android:color/accent_device_default_dark</color>
+    <color name="storage_private_5">@*android:color/accent_device_default_dark</color>
+
+    <!-- linear_color_bar_right: not actually the real material progress bar bg color.
+    I got #5c5c5c from a screenshot for the normal progress bar, but then I decided on #3d3d3d
+    because that was showing for this kind of bar in advanced display of internal shared storage.
+    I didn't see any color in my theme that would produce this color (maybe I missed it),
+    so I just take this one to keep it uniform (and be lazy...) -->
+    <color name="linear_color_bar_left">@*android:color/accent_device_default_dark</color>
+    <color name="linear_color_bar_middle">@*android:color/accent_device_default_dark</color>
+    <color name="linear_color_bar_right">#ff3d3d3d</color>
+
+    <!--color name="aicp_logo_bg">#ff303030</color-->
+
+    <color name="gestures_switchbar_color">#ff424242</color>
+    <color name="gestures_setting_background_color">@*android:color/background_material_dark</color>
+
+    <color name="bluetooth_pairing_caption">@*android:color/secondary_text_material_dark</color>
+    <color name="bluetooth_pairing_code_message">@*android:color/secondary_text_material_dark</color>
+    <color name="bluetooth_phonebook_sharing_message_confirm_pin">@*android:color/secondary_text_material_dark</color>
+    <color name="bluetooth_dialog_text_color">@*android:color/secondary_text_material_dark</color>
+
+    <color name="wifi_details_icon_color">#b3ffffff</color>
+
+    <color name="fallback_tintColor">#80ffffff</color>
+    <color name="suggestion_condition_background">#ff212121</color>
+    <color name="condition_card_background">@*android:color/background_material_dark</color>
+
+    <!-- MSIM Color picker dialog colors -->
+    <color name="sim_color_picker_edit_text_color">@android:color/white</color>
+    <color name="sim_color_picker_list_text_color">@android:color/white</color>
+    <color name="sim_color_picker_carrier_text_color">@android:color/white</color>
+    <color name="sim_color_picker_number_text_color">@android:color/white</color>
+
+
+
+    <color name="switch_bar_background">@*android:color/material_grey_800</color>
+</resources>
