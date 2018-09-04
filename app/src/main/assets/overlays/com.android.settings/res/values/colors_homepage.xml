@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- Dashboard/homepage icon background colors -->
+    <color name="homepage_network_background">@*android:color/transparent</color>
+    <color name="homepage_connected_device_background">@*android:color/transparent</color>
+    <color name="homepage_app_and_notification_background">@*android:color/transparent</color>
+    <color name="homepage_battery_background">@*android:color/transparent</color>
+    <color name="homepage_display_background">@*android:color/transparent</color>
+    <color name="homepage_sound_background">@*android:color/transparent</color>
+    <color name="homepage_storage_background">@*android:color/transparent</color>
+    <color name="homepage_security_background">@*android:color/transparent</color>
+    <color name="homepage_accounts_background">@*android:color/transparent</color>
+    <color name="homepage_accessibility_background">@*android:color/transparent</color>
+    <color name="homepage_system_background">@*android:color/transparent</color>
+    <color name="homepage_support_background">@*android:color/transparent</color>
+    <color name="homepage_generic_icon_background">@*android:color/transparent</color>
+    <!-- End of dashboard/homepage icon background colors -->
+
+</resources>
