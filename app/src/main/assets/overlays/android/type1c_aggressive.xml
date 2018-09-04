@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+
+    <!--
+        Map light DeviceDefault styles to their dark counterparts where available
+        -->
+
+    <style name="Theme.DeviceDefault.Light" parent="@android:style/Theme.DeviceDefault" />
+
+    <style name="Theme.DeviceDefault.Light.DarkActionBar" parent="@android:style/Theme.DeviceDefault" />
+
+    <style name="Theme.DeviceDefault.Light.NoActionBar" parent="@android:style/Theme.DeviceDefault.NoActionBar" />
+
+    <style name="Theme.DeviceDefault.Light.NoActionBar.Fullscreen" parent="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen" />
+
+    <style name="Theme.DeviceDefault.Light.NoActionBar.Overscan" parent="@android:style/Theme.DeviceDefault.NoActionBar.Overscan" />
+
+    <style name="Theme.DeviceDefault.Light.NoActionBar.TranslucentDecor" parent="@android:style/Theme.DeviceDefault.NoActionBar.TranslucentDecor" />
+
+    <style name="Theme.DeviceDefault.Light.Dialog" parent="@android:style/Theme.DeviceDefault.Dialog" />
+
+    <style name="Theme.DeviceDefault.Light.Dialog.MinWidth" parent="@android:style/Theme.DeviceDefault.Dialog.MinWidth" />
+
+    <style name="Theme.DeviceDefault.Light.Dialog.NoActionBar" parent="@android:style/Theme.DeviceDefault.Dialog.NoActionBar" />
+
+    <style name="Theme.DeviceDefault.Light.Dialog.NoActionBar.MinWidth" parent="@android:style/Theme.DeviceDefault.Dialog.NoActionBar.MinWidth" />
+
+    <style name="Theme.DeviceDefault.Light.DialogWhenLarge" parent="@android:style/Theme.DeviceDefault.DialogWhenLarge" />
+
+    <style name="Theme.DeviceDefault.Light.DialogWhenLarge.NoActionBar" parent="@android:style/Theme.DeviceDefault.DialogWhenLarge.NoActionBar" />
+
+    <!--
+    <style name="Theme.DeviceDefault.Light.Dialog.Presentation" parent="@android:style/Theme.DeviceDefault.Dialog.Presentation" />
+    -->
+
+    <style name="Theme.DeviceDefault.Light.Panel" parent="@android:style/Theme.DeviceDefault.Panel" />
+
+    <style name="Theme.DeviceDefault.Light.Dialog.Alert" parent="@android:style/Theme.DeviceDefault.Dialog.Alert" />
+
+    <!--
+    <style name="Theme.DeviceDefault.Light.SearchBar" parent="@android:style/Theme.DeviceDefault.SearchBar" />
+    -->
+
+    <!--
+    <style name="Theme.DeviceDefault.Light.Voice" parent="@android:style/Theme.DeviceDefault.Voice" />
+    -->
+
+</resources>
