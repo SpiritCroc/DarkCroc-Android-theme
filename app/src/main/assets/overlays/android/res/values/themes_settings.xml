@@ -70,4 +70,9 @@
         <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_settings</item>
         <item name="android:colorSecondary">@*android:color/secondary_material_settings</item>
     </style>
+
+    <style name="Theme.DeviceDefault.Settings" parent="@android:style/Theme.Material.Settings" />
+
+    <style name="Theme.DeviceDefault.Settings.Dialog.NoActionBar" parent="@android:style/Theme.DeviceDefault.Dialog.NoActionBar" />
+
 </resources>
