@@ -26,3 +26,10 @@
         possibly sacrificing readability in some apps that depend on a light system theme.
     - Known issues related to this variant:
         - Some launchers have white text on white background
+
+## SystemUI
+### Quick Settings (QS) and volume panel
+- Dark
+- Dark transparent
+- Black
+- Black transparent
