@@ -1,6 +1,8 @@
 # Variants explained (TODO)
 
 ## Android System
+### Accent color
+- Self-explanatory.
 ### Backgrounds
 - Black:
     Normal background black, floating backgrounds like default dark
