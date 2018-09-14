@@ -24,4 +24,5 @@
     <color name="immersive_cling_text_color">@android:color/white</color>
     <color name="immersive_cling_button_text_color">@android:color/white</color>
 
+    <color name="autofill_background_material_dark">@*android:color/material_grey_900</color>
 </resources>

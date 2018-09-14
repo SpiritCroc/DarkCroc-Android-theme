@@ -2,7 +2,8 @@
 
 <resources>
 
-    <color name="primary_dark_material_settings">#212121</color>
+    <color name="primary_material_settings">#212121</color>
+    <color name="primary_dark_material_settings">#000000</color>
 
     <color name="secondary_material_settings">#424242</color>
     <color name="tertiary_material_settings">#616161</color>
