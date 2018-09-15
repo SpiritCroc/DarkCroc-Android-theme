@@ -22,10 +22,18 @@
         <item name="android:textColorPrimaryInverse">?android:textColorPrimary</item>
     </style>
 
-    <!--
     <style name="GrantPermissions"
-        parent="@android:style/Theme.DeviceDefault.Light.Dialog.NoActionBar">
+        parent="@android:style/Theme.Material.Dialog.NoActionBar">
+        <item name="*android:windowFixedHeightMajor">100%</item>
+        <item name="*android:windowFixedHeightMinor">100%</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
     </style>
-    -->
+
+    <style name="DialogWhenLarge"
+        parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:textAppearanceMedium">@*com.android.packageinstaller:style/MediumText</item>
+        <item name="android:textAppearanceSmall">@*com.android.packageinstaller:style/SmallText</item>
+        <item name="android:titleTextStyle">@*com.android.packageinstaller:style/TitleText</item>
+    </style>
 
 </resources>
