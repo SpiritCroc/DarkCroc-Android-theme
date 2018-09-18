@@ -1,5 +1,10 @@
 # Variants explained (TODO)
 
+## Notifications
+Known issues with dark and black notification variants:
+- Some application overwrite text colors, assuming a light background color, leading to dark text on dark background
+- On ROMs without the required exposure commits, the notification icon often gets colored with a bad contrast
+
 ## Android System
 ### Accent color
 - Self-explanatory.
