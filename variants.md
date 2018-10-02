@@ -13,10 +13,10 @@ Known issues with dark and black notification variants:
     Normal background black, floating backgrounds like default dark
 - Black transparent:
     Normal background black, floating backgrounds transparent grey
-- Default dark:
+- Dark:
     Grey backgrounds like the default Material dark theme
-- Default dark transparent:
-    Like default dark, with transparent background for floating
+- Dark transparent:
+    Like dark, with transparent background for floating
 - More black:
     Normal and floating black backgrounds
 - More black transparent:
