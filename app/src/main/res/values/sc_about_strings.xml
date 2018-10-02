@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="button_open_substratum">Open Substratum</string>
+
+    <string name="unknown_version">Unknown</string>
+    <string name="version_name_and_code">%1$s (%2$s)</string>
+
+    <integer name="about_version">1</integer>
+
+    <string name="action_hide_launcher">Hide from launcher</string>
+    <string name="hide_launcher_title">Hide from launcher?</string>
+    <string name="hide_launcher_message">If you hide this theme from your launcher, you won\'t be able to access this about screen anymore. Continue?</string>
+    <string name="hide_launcher_yes">@string/real_yes</string>
+    <string name="hide_launcher_no">@string/real_no</string>
+    <string name="prompt_view_current_about_title">Show explanations?</string>
+    <string name="prompt_view_current_about_message">You haven\'t seen the latest about screen for this theme yet. If you don\'t have much experience, it\'s recommended to read some information about the available variants there. You\'ll also be able to show it later from your launcher. Show now?</string>
+    <string name="prompt_view_current_about_yes">@string/real_yes</string>
+    <string name="prompt_view_current_aboutr_no">@string/real_no</string>
+
+    <string name="action_force_about">I know what I\'m doing!</string>
+
+    <string name="real_yes">Yes</string>
+    <string name="real_no">No</string>
+
+    <string name="about_internal_error">Internal error!\n%s</string>
+</resources>

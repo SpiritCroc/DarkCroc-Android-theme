@@ -1,3 +1,5 @@
 /build
 /src/main/assets-temp
 /src/main/jni/LoadingProcess.h
+/src/main/assets/about/index.html
+/src/main/assets/about/depp.html

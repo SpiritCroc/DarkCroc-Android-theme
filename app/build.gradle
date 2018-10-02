@@ -140,6 +140,7 @@ task encryptAssets {
 project.afterEvaluate {
     android.applicationVariants.all { variant ->
         variant.javaCompiler.dependsOn(generateType3)
+        variant.javaCompiler.dependsOn(generateAbout)
     }
     preBuild.dependsOn encryptAssets
 }
@@ -196,6 +197,20 @@ task generateType3 {
             script.waitFor()
         } else {
             println("Skipping type3 generation: not using a supported operating system")
+        }
+    }
+}
+
+task generateAbout {
+    doFirst {
+        if (org.gradle.internal.os.OperatingSystem.current().isLinux()) {
+            println("Running about generation script on Linux")
+            def script = "generate_about/generate_about_html.sh".execute()
+            script.in.eachLine { line -> println "about-gen: " + line }
+            script.err.eachLine { line -> println "about-gen: ERROR: " + line }
+            script.waitFor()
+        } else {
+            println("Skipping about generation: not using a supported operating system")
         }
     }
 }

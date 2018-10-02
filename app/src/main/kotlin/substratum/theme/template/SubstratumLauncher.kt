@@ -18,6 +18,7 @@ import com.github.javiersantos.piracychecker.enums.PiracyCheckerError
 import com.github.javiersantos.piracychecker.enums.PirateApp
 import de.spiritcroc.darkcroc.substratum.BuildConfig
 import de.spiritcroc.darkcroc.substratum.R
+import de.spiritcroc.darkcroc.substratum.Util
 import substratum.theme.template.AdvancedConstants.ENFORCE_MINIMUM_SUBSTRATUM_VERSION
 import substratum.theme.template.AdvancedConstants.MINIMUM_SUBSTRATUM_VERSION
 import substratum.theme.template.AdvancedConstants.ORGANIZATION_THEME_SYSTEMS
@@ -179,6 +180,10 @@ class SubstratumLauncher : Activity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        if (Util.checkAboutUpdate(this)) {
+            return
+        }
 
         // Reject all other apps trying to hijack the theme first
         val caller = callingActivity?.packageName

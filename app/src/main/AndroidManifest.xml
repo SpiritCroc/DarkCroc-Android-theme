@@ -37,6 +37,15 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".AboutActivity"
+            android:theme="@style/AboutTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
         <meta-data
             android:name="Substratum_Legacy"
             android:value="@bool/ThemeSupportLegacy"/>
