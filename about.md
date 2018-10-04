@@ -33,9 +33,9 @@ Full support is only provided for custom ROMs that include the required
 - ROM version
     - Are you using stock ROM (which device?) or a custom ROM
         (which one? release date? does it have Substratum support?)
-    - Android version: ?attr/androidVersion
-- Substratum version: ?attr/substratumVersion
-- Theme version: ?attr/themeVersion
+    - Android version<!--x: ?attr/androidVersionx-->
+- Substratum version<!--x: ?attr/substratumVersionx-->
+- Theme version<!--x: ?attr/themeVersionx-->
 - The overlay variants you applied
 - Information specific to your issue:
     - In case of bad colors: please provide a screenshot and describe where it was taken!

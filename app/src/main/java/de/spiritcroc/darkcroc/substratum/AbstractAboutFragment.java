@@ -38,6 +38,8 @@ public abstract class AbstractAboutFragment extends Fragment {
         String themeVersion = getVersionName(context, Util.THEME_PACKAGE_NAME);
         String androidVersion = getVersionName(context, null);
         ta.recycle();
+        html = html.replaceAll("<!--x", "");
+        html = html.replaceAll("x-->", "");
         html = html.replaceAll("\\?android:attr/textColorPrimary", textColorPrimary);
         html = html.replaceAll("\\?android:attr/colorAccent", accentColor);
         html = html.replaceAll("\\?attr/colorWarning", warning_color);
