@@ -1,7 +1,119 @@
 <?xml version="1.0"?>
 <substratum>
     <wallpaper id="0100-black">
-        <link>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/master/wallpapers/0100-black.png</link>
-        <preview>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/master/wallpapers/0100-black.png</preview>
+        <link>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/0100-black.png</link>
+        <preview>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/preview/0100-black.png</preview>
+    </wallpaper>
+    <wallpaper id="1000-Amber_A700">
+        <link>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/1000-Amber_A700.png</link>
+        <preview>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/preview/1000-Amber_A700.png</preview>
+    </wallpaper>
+    <wallpaper id="1000-Blue_light_500">
+        <link>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/1000-Blue_light_500.png</link>
+        <preview>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/preview/1000-Blue_light_500.png</preview>
+    </wallpaper>
+    <wallpaper id="1000-Cyan_500">
+        <link>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/1000-Cyan_500.png</link>
+        <preview>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/preview/1000-Cyan_500.png</preview>
+    </wallpaper>
+    <wallpaper id="1000-Green_500">
+        <link>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/1000-Green_500.png</link>
+        <preview>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/preview/1000-Green_500.png</preview>
+    </wallpaper>
+    <wallpaper id="1000-Green">
+        <link>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/1000-Green.png</link>
+        <preview>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/preview/1000-Green.png</preview>
+    </wallpaper>
+    <wallpaper id="1000-Lime_500">
+        <link>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/1000-Lime_500.png</link>
+        <preview>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/preview/1000-Lime_500.png</preview>
+    </wallpaper>
+    <wallpaper id="1000-Orange_500">
+        <link>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/1000-Orange_500.png</link>
+        <preview>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/preview/1000-Orange_500.png</preview>
+    </wallpaper>
+    <wallpaper id="1000-Pink_200">
+        <link>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/1000-Pink_200.png</link>
+        <preview>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/preview/1000-Pink_200.png</preview>
+    </wallpaper>
+    <wallpaper id="1000-Purple_deep_200">
+        <link>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/1000-Purple_deep_200.png</link>
+        <preview>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/preview/1000-Purple_deep_200.png</preview>
+    </wallpaper>
+    <wallpaper id="1000-Purple_deep_500">
+        <link>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/1000-Purple_deep_500.png</link>
+        <preview>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/preview/1000-Purple_deep_500.png</preview>
+    </wallpaper>
+    <wallpaper id="1000-Red">
+        <link>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/1000-Red.png</link>
+        <preview>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/preview/1000-Red.png</preview>
+    </wallpaper>
+    <wallpaper id="1000-Teal_200">
+        <link>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/1000-Teal_200.png</link>
+        <preview>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/preview/1000-Teal_200.png</preview>
+    </wallpaper>
+    <wallpaper id="1000-White">
+        <link>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/1000-White.png</link>
+        <preview>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/preview/1000-White.png</preview>
+    </wallpaper>
+    <wallpaper id="1000-Yellow_500">
+        <link>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/1000-Yellow_500.png</link>
+        <preview>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/preview/1000-Yellow_500.png</preview>
+    </wallpaper>
+    <wallpaper id="1100-Amber_A700">
+        <link>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/1100-Amber_A700.png</link>
+        <preview>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/preview/1100-Amber_A700.png</preview>
+    </wallpaper>
+    <wallpaper id="1100-Blue_light_500">
+        <link>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/1100-Blue_light_500.png</link>
+        <preview>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/preview/1100-Blue_light_500.png</preview>
+    </wallpaper>
+    <wallpaper id="1100-Cyan_500">
+        <link>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/1100-Cyan_500.png</link>
+        <preview>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/preview/1100-Cyan_500.png</preview>
+    </wallpaper>
+    <wallpaper id="1100-Green_500">
+        <link>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/1100-Green_500.png</link>
+        <preview>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/preview/1100-Green_500.png</preview>
+    </wallpaper>
+    <wallpaper id="1100-Green">
+        <link>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/1100-Green.png</link>
+        <preview>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/preview/1100-Green.png</preview>
+    </wallpaper>
+    <wallpaper id="1100-Lime_500">
+        <link>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/1100-Lime_500.png</link>
+        <preview>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/preview/1100-Lime_500.png</preview>
+    </wallpaper>
+    <wallpaper id="1100-Orange_500">
+        <link>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/1100-Orange_500.png</link>
+        <preview>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/preview/1100-Orange_500.png</preview>
+    </wallpaper>
+    <wallpaper id="1100-Pink_200">
+        <link>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/1100-Pink_200.png</link>
+        <preview>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/preview/1100-Pink_200.png</preview>
+    </wallpaper>
+    <wallpaper id="1100-Purple_deep_200">
+        <link>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/1100-Purple_deep_200.png</link>
+        <preview>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/preview/1100-Purple_deep_200.png</preview>
+    </wallpaper>
+    <wallpaper id="1100-Purple_deep_500">
+        <link>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/1100-Purple_deep_500.png</link>
+        <preview>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/preview/1100-Purple_deep_500.png</preview>
+    </wallpaper>
+    <wallpaper id="1100-Red">
+        <link>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/1100-Red.png</link>
+        <preview>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/preview/1100-Red.png</preview>
+    </wallpaper>
+    <wallpaper id="1100-Teal_200">
+        <link>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/1100-Teal_200.png</link>
+        <preview>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/preview/1100-Teal_200.png</preview>
+    </wallpaper>
+    <wallpaper id="1100-White">
+        <link>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/1100-White.png</link>
+        <preview>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/preview/1100-White.png</preview>
+    </wallpaper>
+    <wallpaper id="1100-Yellow_500">
+        <link>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/1100-Yellow_500.png</link>
+        <preview>https://raw.githubusercontent.com/SpiritCroc/DarkCroc-Android-theme/9.0-substratum/wallpapers/preview/1100-Yellow_500.png</preview>
     </wallpaper>
 </substratum>
