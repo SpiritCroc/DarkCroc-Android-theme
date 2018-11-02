@@ -128,7 +128,7 @@ packages/apps/InCallUI (moved: packages/apps/Dialer/InCallUI)
     <color name="remove_text_color">#b3ffffff</color>
     <color name="remove_highlighted_text_color">#fff44336</color>
     <color name="contacts_grid_bottom_border_color">#16ffffff</color>
-    <color name="missed_call">#ffff2e58</color>
+    <color name="missed_call">#c53929</color>
     <!--color name="answered_call">#ff00c853</color-->
     <color name="floating_action_button_touch_tint">#80ffffff</color>
     <!--
@@ -167,4 +167,10 @@ packages/apps/InCallUI (moved: packages/apps/Dialer/InCallUI)
     <color name="call_detail_footer_text_color">#b3ffffff</color>
     <color name="no_call_log">#b3ffffff</color>
     <color name="list_all_call">#b3ffffff</color>
+
+    <color name="dialer_secondary_text_color">#b3ffffff</color>
+
+    <!-- https://gerrit.aicp-rom.com/c/AICP/packages_apps_Dialer/+/77099 -->
+    <color name="dialer_toolbar_title_text">#ffffffff</color>
+    <color name="dialer_toolbar_subtitle_text">#b3ffffff</color>
 </resources>

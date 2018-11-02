@@ -88,6 +88,23 @@
         -->
     </style>
 
+    <style name="DialerThemeBase.NoActionBar" parent="@*com.android.dialer:style/Theme.AppCompat.NoActionBar">
+        <!--
+        <item name="android:textColorPrimary">@color/dialer_primary_text_color</item>
+        <item name="android:textColorSecondary">@color/dialer_secondary_text_color</item>
+        -->
+        <!-- This is used for title bar color in recents -->
+        <item name="android:colorPrimary">#0288d1</item>
+        <item name="android:colorPrimaryDark">#0277bd</item>
+        <item name="android:colorControlActivated">#0288d1</item>
+        <item name="android:colorButtonNormal">#0288d1</item>
+        <item name="android:colorAccent">#ff4fc3f7</item>
+        <item name="android:alertDialogTheme">@*com.android.dialer:style/AlertDialogTheme</item>
+        <!--
+        <item name="android:textAppearanceButton">@style/DialerButtonTextStyle</item>
+        -->
+    </style>
+
 
     <style name="SettingsStyle" parent="@*com.android.dialer:style/Theme.AppCompat">
         <item name="android:textColorPrimary">#ffffffff</item>
@@ -302,22 +319,24 @@
 
     <!-- packages/apps/Dialer/java/com/android/dialer/calldetails -->
 
-    <style name="PrimaryText">
+    <style name="PrimaryText" parent="*com.android.dialer:TextAppearance.AppCompat">
         <item name="android:textColor">#ffffffff</item>
-        <!--
-        <item name="android:textSize">@dimen/call_details_primary_text_size</item>
-        -->
         <item name="android:textSize">16sp</item>
+        <item name="android:ellipsize">end</item>
         <item name="android:maxLines">1</item>
     </style>
 
-    <style name="SecondaryText">
+    <style name="SecondaryText" parent="*com.android.dialer:TextAppearance.AppCompat">
         <item name="android:textColor">#b3ffffff</item>
-        <!--
-        <item name="android:textSize">@dimen/call_details_secondary_text_size</item>
-        -->
         <item name="android:textSize">14sp</item>
+        <item name="android:ellipsize">end</item>
         <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="SubHeader" parent="*com.android.dialer:TextAppearance.AppCompat">
+        <item name="android:textColor">#b3ffffff</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
     </style>
 
     <style name="ECText">
@@ -330,7 +349,9 @@
     </style>
 
     <style name="CallDetailsActionItemStyle">
+        <!--
         <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        -->
         <item name="android:clickable">true</item>
         <item name="android:drawablePadding">28dp</item>
         <item name="android:gravity">center_vertical</item>
