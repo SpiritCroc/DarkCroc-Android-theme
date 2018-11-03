@@ -7,6 +7,8 @@
 
     <bool name="config_useDarkBgNotificationIconTextTinting">false</bool>
 
+    <bool name="config_useDarkBgNotificationIconTinting">false</bool>
+
     <color name="system_notification_accent_color">#ff607D8B</color>
 
     <!--
