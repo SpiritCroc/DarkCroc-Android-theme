@@ -53,4 +53,7 @@
 
     <color name="notification_primary_text_color_light">#ffffffff</color>
     <color name="notification_secondary_text_color_light">#b3ffffff</color>
+    <!-- Don't do transparency here, or it modify color to look bad -->
+    <color name="notification_default_color_light">#b3b3b3</color>
+    <color name="notification_default_color_dark">#b3b3b3</color>
 </resources>
