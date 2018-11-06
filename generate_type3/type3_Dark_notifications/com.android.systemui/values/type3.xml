@@ -35,4 +35,50 @@
     <color name="notification_guts_title_color">#ffffffff</color>
     <color name="notification_guts_text_color">#b2ffffff</color>
     <color name="notification_guts_btn_color">#ffffffff</color>
+
+    <style name="TextAppearance.NotificationInfo" parent="">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="TextAppearance.NotificationInfo.Primary">
+        <item name="android:textColor">@*android:color/primary_text_material_dark</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:alpha">0.87</item>
+    </style>
+
+    <style name="TextAppearance.NotificationInfo.Confirmation">
+        <item name="android:textColor">@*android:color/primary_text_material_dark</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:alpha">0.87</item>
+    </style>
+
+    <style name="TextAppearance.NotificationInfo.Secondary">
+        <item name="android:textColor">@*android:color/primary_text_material_dark</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:alpha">0.54</item>
+    </style>
+
+    <!--
+    <style name="TextAppearance.NotificationInfo.Secondary.Warning">
+        <item name="android:textColor">?android:attr/colorError</item>
+    </style>
+
+    <style name="TextAppearance.NotificationInfo.Secondary.Link">
+        <item name="android:textColor">?android:attr/colorAccent</item>
+    </style>
+
+    <style name="TextAppearance.NotificationInfo.Button">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:attr/colorAccent</item>
+        <item name="android:background">@drawable/btn_borderless_rect</item>
+        <item name="android:gravity">center</item>
+        <item name="android:focusable">true</item>
+        <item name="android:paddingTop">@dimen/notification_guts_button_vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/notification_guts_button_vertical_padding</item>
+        <item name="android:paddingLeft">@dimen/notification_guts_button_horizontal_padding</item>
+        <item name="android:paddingRight">@dimen/notification_guts_button_horizontal_padding</item>
+    </style>
+    -->
 </resources>

@@ -41,6 +41,10 @@
         <item name="android:textColor">#66000000</item>
     </style>
 
+    <style name="TextAppearance.Material.Notification.Info" parent="@*android:style/TextAppearance.Material.Notification">
+        <item name="android:textSize">@*android:dimen/notification_subtext_size</item>
+    </style>
+
     <!-- Whether doze should invert colors for notifications. If the RRO theme causes
     the NORMAL notification background to be dark and the text to be light, this boolean
     needs to be set to false, to prevent the doze notifications from being light -->
