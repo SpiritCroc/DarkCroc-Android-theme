@@ -16,7 +16,5 @@ With the release of Android 9.0, I wanted to do a fresh start for following reas
 - Many custom ROMs now have dark themes already included, so there's not that much of a need for a "default" dark theme (except maybe stock ROM users, which I was never actually targetting with my themes)
 
 ## Download
-
-[Get it on Google Play](https://play.google.com/store/apps/details?id=de.spiritcroc.darkcroc.substratum)
-
-Don't like Google? Get the latest or previous versions from the [GitHub releases page](https://github.com/SpiritCroc/DarkCroc-Android-theme/releases)
+<a href="https://play.google.com/store/apps/details?id=de.spiritcroc.darkcroc.substratum" alt="Get it on Google Play"><img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" height="80"></a>
+<a href="https://f-droid.org/packages/de.spiritcroc.darkcroc.substratum" alt="Get it on F-Droid"><img src="https://gitlab.com/fdroid/artwork/raw/master/badge/get-it-on.png" height="80"></a>
