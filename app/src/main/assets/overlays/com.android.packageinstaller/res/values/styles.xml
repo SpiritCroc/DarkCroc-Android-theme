@@ -36,4 +36,9 @@
         <item name="android:titleTextStyle">@*com.android.packageinstaller:style/TitleText</item>
     </style>
 
+    <style name="AlertDialogActivity"
+        parent="@android:style/Theme.DeviceDefault.Panel">
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
 </resources>
