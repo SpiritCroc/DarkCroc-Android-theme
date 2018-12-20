@@ -6,4 +6,13 @@
         <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
         -->
     </style>
+
+    <style name="Theme.SystemUI.Dialog" parent="@android:style/Theme.DeviceDefault.Dialog" />
+
+    <style name="Theme.SystemUI.Dialog.Alert" parent="@*android:style/Theme.DeviceDefault.Dialog.Alert" />
+
+    <style name="Theme.SystemUI.Dialog.GlobalActions" parent="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen">
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
 </resources>
