@@ -48,4 +48,7 @@
         -->
     </style>
 
+    <!-- DeviceDefault theme for the default system theme.  -->
+    <style name="Theme.DeviceDefault.System" parent="*android:Theme.DeviceDefault" />
+
 </resources>
