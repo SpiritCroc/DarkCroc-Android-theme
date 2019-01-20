@@ -89,6 +89,8 @@ Preferred accent color used for the Android System, SystemUI and some system app
 ## SystemUI
 ### QS
 Select the color scheme for the quick settings and the volume panel.
+### QS shape
+Select the shape for quick settings tiles. Plain style will only work fine on custom ROMs with substratum support (i.e. having the required exposure commits).
 
 # Telegram theme
 
