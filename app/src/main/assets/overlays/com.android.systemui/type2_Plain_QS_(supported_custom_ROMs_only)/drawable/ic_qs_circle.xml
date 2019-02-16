@@ -19,5 +19,12 @@
     android:viewportWidth="2.2"
     android:viewportHeight="2.2">
 
-    <!-- No path -->
+    <!-- Android doesn't like missing or empty paths, so hide with transparency -->
+    <path
+        android:fillColor="#00FFFFFF"
+        android:pathData="M.1,1.1
+        c0,.55  .45,1   1,1
+        c.55,0  1,-.45  1,-1
+        c0,-.55 -.45,-1 -1,-1
+        c-.55,0 -1,.45  -1,1"/>
 </vector>
