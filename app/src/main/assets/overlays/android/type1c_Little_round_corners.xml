@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- This matches system default -->
+    <dimen name="config_dialogCornerRadius">2dp</dimen>
+    <dimen name="config_buttonCornerRadius">2dp</dimen>
+    <dimen name="config_progressBarCornerRadius">0dp</dimen>
+</resources>

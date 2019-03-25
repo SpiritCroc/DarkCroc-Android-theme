@@ -5,6 +5,7 @@
     <!--
         Map light DeviceDefault styles to their dark counterparts where available
         -->
+    <!-- TODO:  add back rounded corner attrs to follow our variant -->
 
     <style name="Theme.DeviceDefault.Light" parent="@android:style/Theme.DeviceDefault" />
 

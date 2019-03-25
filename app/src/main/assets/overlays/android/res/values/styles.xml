@@ -17,15 +17,13 @@
         <item name="android:listPreferredItemPaddingEnd">?android:attr/dialogPreferredPadding</item>
 
         <!-- Dialog attributes -->
+        <item name="android:dialogCornerRadius">@*android:dimen/config_dialogCornerRadius</item>
         <!--
-        <item name="android:dialogCornerRadius">@android:dimen/config_dialogCornerRadius</item>
         <item name="android:alertDialogTheme">@android:style/Theme.DeviceDefault.Light.Dialog.Alert</item>
         -->
 
         <!-- Button styles -->
-        <!--
-        <item name="android:buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        -->
+        <item name="android:buttonCornerRadius">@*android:dimen/config_buttonCornerRadius</item>
         <item name="android:buttonBarButtonStyle">@*android:style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
 
         <!-- Color palette -->
@@ -39,8 +37,8 @@
         <!-- Progress bar attributes -->
         <!--
         <item name="android:colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="android:progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
         -->
+        <item name="*android:progressBarCornerRadius">@*android:dimen/config_progressBarCornerRadius</item>
 
         <!-- Toolbar attributes -->
         <!--
@@ -49,6 +47,10 @@
     </style>
 
     <!-- DeviceDefault theme for the default system theme.  -->
-    <style name="Theme.DeviceDefault.System" parent="*android:Theme.DeviceDefault" />
+    <style name="Theme.DeviceDefault.System" parent="*android:Theme.DeviceDefault">
+        <item name="android:dialogCornerRadius">@*android:dimen/config_dialogCornerRadius</item>
+        <item name="android:buttonCornerRadius">@*android:dimen/config_buttonCornerRadius</item>
+        <item name="*android:progressBarCornerRadius">@*android:dimen/config_progressBarCornerRadius</item>
+    </style>
 
 </resources>

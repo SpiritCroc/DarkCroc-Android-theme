@@ -20,6 +20,7 @@ Full support is only provided for custom ROMs that include the required
 # Reporting bugs
 
 ### Before reporting
+
 - Ensure that your device runs a supported operating system
 - Ensure you have understood the available variants and which
     known issues each of them can produce
@@ -30,6 +31,7 @@ Full support is only provided for custom ROMs that include the required
     page](https://github.com/SpiritCroc/DarkCroc-Android-theme/issues?q=is%3Aissue)
 
 ### Required information
+
 - ROM version
     - Are you using stock ROM (which device?) or a custom ROM
         (which one? release date? does it have Substratum support?)
@@ -43,6 +45,7 @@ Full support is only provided for custom ROMs that include the required
         [logcat](https://raw.githubusercontent.com/nathanchance/Android-Tools/master/Guides/Proper_Bug_Reporting.txt)
 
 ### Report
+
 If you have acknowledged the previous paragraphs and want to report an
     issue, please create an issue on
     [GitHub](https://github.com/SpiritCroc/DarkCroc-Android-theme/issues?q=is%3Aissue).
@@ -54,10 +57,15 @@ If you have acknowledged the previous paragraphs and want to report an
     - Some application overwrite text colors, assuming a light background color, leading to dark text on dark background
     - On ROMs without the required exposure commits, the notification icon often gets colored with a bad contrast
 
+
 ## Android System
+
 ### Accent color
+
 Preferred accent color used for the Android System, SystemUI and some system apps.
+
 ### Backgrounds
+
 - **Black**:
     - Normal background: black
     - Floating background: dark
@@ -75,6 +83,13 @@ Preferred accent color used for the Android System, SystemUI and some system app
 - **More black transparent**:
     - Normal background: black
     - Floating background: black transparent
+
+# Corner style
+
+Enable or disable rounded corners for various UI elements such as quick settings and system dialogs.
+
+"Little round corners" should match the default AOSP values.
+
 <!--
 ### Behaviour
 _ modest:
@@ -88,11 +103,17 @@ _ aggressive:
         - Some launchers have white text on white background
 -->
 
+
 ## SystemUI
+
 ### QS
+
 Select the color scheme for the quick settings and the volume panel.
+
 ### QS shape
+
 Select the shape for quick settings tiles. Plain style will only work fine on custom ROMs with substratum support (i.e. having the required exposure commits).
+
 
 # Telegram theme
 

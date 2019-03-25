@@ -71,8 +71,16 @@
         <item name="android:colorSecondary">@*android:color/secondary_material_settings</item>
     </style>
 
-    <style name="Theme.DeviceDefault.Settings" parent="@android:style/Theme.Material.Settings" />
+    <style name="Theme.DeviceDefault.Settings" parent="@android:style/Theme.Material.Settings">
+        <item name="android:dialogCornerRadius">@*android:dimen/config_dialogCornerRadius</item>
+        <item name="android:buttonCornerRadius">@*android:dimen/config_buttonCornerRadius</item>
+        <item name="*android:progressBarCornerRadius">@*android:dimen/config_progressBarCornerRadius</item>
+    </style>
 
-    <style name="Theme.DeviceDefault.Settings.Dialog.NoActionBar" parent="@android:style/Theme.DeviceDefault.Dialog.NoActionBar" />
+    <style name="Theme.DeviceDefault.Settings.Dialog.NoActionBar" parent="@android:style/Theme.DeviceDefault.Dialog.NoActionBar">
+        <item name="android:dialogCornerRadius">@*android:dimen/config_dialogCornerRadius</item>
+        <item name="android:buttonCornerRadius">@*android:dimen/config_buttonCornerRadius</item>
+        <item name="*android:progressBarCornerRadius">@*android:dimen/config_progressBarCornerRadius</item>
+    </style>
 
 </resources>

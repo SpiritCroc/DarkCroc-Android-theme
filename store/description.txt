@@ -29,6 +29,9 @@ Semi-transparent variants also available for dark and black.
 Available quicksettings + volume slider colors:
 Dark, black; each either solid or transparent.
 
+Available UI corner styles:
+Sharp, round.
+
 Themed parts include:
 - Framework
 - SystemUI
