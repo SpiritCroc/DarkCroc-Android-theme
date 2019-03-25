@@ -75,16 +75,18 @@ Preferred accent color used for the Android System, SystemUI and some system app
 - **More black transparent**:
     - Normal background: black
     - Floating background: black transparent
+<!--
 ### Behaviour
-- modest:
-    - Keep some parts of Android light in order to ensure readable texts.
-    - **Known issues** related to this variant:
+_ modest:
+    _ Keep some parts of Android light in order to ensure readable texts.
+    _ **Known issues** related to this variant:
         - Some settings search results have a black icon
-- aggressive:
-    - Try to make as much of Android dark as possible,
+_ aggressive:
+    _ Try to make as much of Android dark as possible,
         possibly sacrificing readability in some apps that depend on a light system theme.
-    - **Known issues** related to this variant:
+    _ **Known issues** related to this variant:
         - Some launchers have white text on white background
+-->
 
 ## SystemUI
 ### QS
