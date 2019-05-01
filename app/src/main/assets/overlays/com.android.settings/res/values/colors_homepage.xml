@@ -16,8 +16,10 @@
     <color name="homepage_system_background">@*android:color/transparent</color>
     <color name="homepage_support_background">@*android:color/transparent</color>
     <color name="homepage_generic_icon_background">@*android:color/transparent</color>
+    <color name="homepage_about_background">@*android:color/transparent</color>
     <!-- Custom ROMs -->
     <color name="homepage_aicpextras_background">@*android:color/transparent</color>
+    <color name="homepage_owlsnest_background">@*android:color/transparent</color>
     <!-- End of dashboard/homepage icon background colors -->
 
 </resources>
