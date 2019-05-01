@@ -72,6 +72,7 @@
     <color name="fallback_tintColor">#80ffffff</color>
     <color name="suggestion_condition_background">#ff212121</color>
     <color name="condition_card_background">@*android:color/background_material_dark</color>
+    <color name="suggestion_card_background">@*android:color/background_material_dark</color>
 
     <!-- MSIM Color picker dialog colors -->
     <color name="sim_color_picker_edit_text_color">@android:color/white</color>
