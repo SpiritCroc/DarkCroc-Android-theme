@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <style name="PeopleTheme" parent="@android:style/Theme.Material">
@@ -156,123 +155,10 @@
         -->
     </style>
 
-
-    <style name="ContactsAlertDialogThemeAppCompat" parent="@*com.android.contacts:style/Theme.AppCompat.Dialog.MinWidth">
-        <item name="android:colorAccent">#0288d1</item>
-        <item name="@*com.android.contacts:attr/colorAccent">#0288d1</item>
-    </style>
-
-    <style name="DetailActivityTheme" parent="@android:style/Theme.Material">
-        <!--
-        <item name="android:actionBarStyle">@style/ContactsActionBarStyle</item>
-        <item name="android:homeAsUpIndicator">@drawable/ic_back_arrow</item>
-        <item name="android:actionOverflowButtonStyle">@style/ContactsActionBarOverflowQP</item>
-        <item name="android:actionBarItemBackground">@drawable/item_background_material_borderless_dark</item>
-        <item name="android:actionBarWidgetTheme">@style/ContactsActionBarTheme</item>
-        -->
-
-        <item name="android:listViewStyle">@style/ListViewStyle</item>
-        <item name="android:colorPrimaryDark">#0277bd</item>
-        <item name="android:colorPrimary">#0288d1</item>
-        <item name="android:colorAccent">#0288d1</item>
-    </style>
-
-
-    <style name="ContactsActionBarDropDownStyle" parent="@android:style/Widget.Material.Spinner">
-        <!--
-        <item name="android:background">@drawable/ab_dropdown_navigation_item_background</item>
-        -->
-    </style>
-
-
-    <style name="NonPhoneDialogTheme" parent="@android:Theme.Material.Dialog">
-    </style>
-
-    <style name="ConfirmAddDetailDialogTheme" parent="@android:style/Theme.Material.Dialog.MinWidth">
-        <item name="android:windowCloseOnTouchOutside">true</item>
-    </style>
-
-    <style name="ContactEditorAccountsChangedActivityTheme" parent="@android:style/Theme.Material.Dialog.NoActionBar.MinWidth">
-        <item name="android:windowCloseOnTouchOutside">true</item>
-        <item name="android:listViewStyle">@style/ListViewStyle</item>
-        <item name="android:colorAccent">#0288d1</item>
-    </style>
-
-    <style name="SelectableItem" parent="@android:style/Theme.Material">
-        <item name="android:background">?android:attr/selectableItemBackground</item>
-    </style>
-
-    <style name="Theme.PhotoSelector" parent="@android:style/Theme.Material">
-        <item name="android:windowBackground">@android:color/transparent</item>
-        <item name="android:windowFrame">@null</item>
-        <item name="android:windowContentOverlay">@null</item>
-        <item name="android:windowAnimationStyle">@null</item>
-        <item name="android:backgroundDimEnabled">false</item>
-        <item name="android:windowIsTranslucent">true</item>
-        <item name="android:windowNoTitle">true</item>
-    </style>
-
-    <style name="ContactsAlertDialogTheme" parent="@android:style/Theme.Material.Dialog">
-        <item name="android:colorAccent">#0288d1</item>
-    </style>
-
-    <style name="ListViewStyle" parent="@android:style/Widget.Material.ListView">
-        <item name="android:overScrollMode">always</item>
-    </style>
-
-    <style name="EmptyStateTextStyle">
-        <item name="android:textSize">18sp</item>
-        <item name="android:textColor">#ffffff</item>
-        <item name="android:alpha">0.54</item>
-        <item name="android:fontFamily">sans-serif</item>
-    </style>
-
-    <style name="DrawerItemTextStyle">
-        <!-- parent="DrawerTextStyle" -->
-        <item name="android:fontFamily">sans-serif-medium</item>
-        <item name="android:gravity">center_vertical</item>
-        <item name="android:layout_gravity">center_vertical</item>
-        <item name="android:textSize">14sp</item>
-        <item name="android:singleLine">true</item>
-        <item name="android:ellipsize">end</item>
-
-        <item name="android:textColor">#ffffffff</item>
-        <item name="android:layout_width">0dip</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:layout_marginStart">32dp</item><!-- dimen/drawer_item_text_margin -->
-        <item name="android:layout_marginEnd">32dp</item><!-- dimen/drawer_item_text_margin -->
-    </style>
-
-    <style name="DrawerHeaderTextStyle">
-        <!-- parent="DrawerTextStyle" -->
-        <item name="android:fontFamily">sans-serif-medium</item>
-        <item name="android:gravity">center_vertical</item>
-        <item name="android:singleLine">true</item>
-        <item name="android:ellipsize">end</item>
-
-        <item name="android:layout_gravity">center_vertical|start</item>
-        <item name="android:paddingTop">12dp</item>
-        <item name="android:paddingBottom">12dp</item>
-        <item name="android:textColor">#b3ffffff</item>
-        <item name="android:textSize">14sp</item>
-    </style>
-
-    <!--
-    <style name="DrawerItemTextActiveStyle">
-        <item name="android:textColor">@color/primary_color</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-    -->
-
-    <style name="DrawerItemTextInactiveStyle">
-        <item name="android:textColor">#b3ffffff</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
     <style name="LaunchScreenTheme" parent="@*com.android.contacts:style/Theme.AppCompat">
         <item name="android:windowBackground">@*com.android.contacts:drawable/quantum_launchscreen_contacts</item>
         <!-- Ensure the status bar color matches the background -->
         <item name="android:colorPrimaryDark">@android:color/black</item>
     </style>
+
 </resources>
