@@ -39,6 +39,24 @@
         <!--item name="android:textColorSecondary">@color/settings_text_color_secondary</item-->
     </style>
 
+    <style name="DialerSettingsLight" parent="@*com.android.phone:style/SettingsLight">
+        <!-- Action bar.-->
+        <item name="android:tint">@*com.android.phone:color/dialer_secondary_text_color</item>
+        <!--
+        <item name="android:windowBackground">@color/dialer_background_color</item>
+        <item name="android:actionModeBackground">@color/dialer_background_color</item>
+        <item name="android:windowLightStatusBar">true</item>
+        -->
+        <!-- Navigation bar.-->
+        <!--
+        <item name="android:navigationBarColor">@color/dialer_background_color</item>
+        <item name="android:navigationBarDividerColor">@color/dialer_divider_color</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        -->
+        <item name="android:colorAccent">@*com.android.phone:color/dialer_theme_color</item>
+        <item name="android:dialogTheme">@*com.android.phone:style/DialerAlertDialogTheme</item>
+    </style>
+
     <style name="DialerAlertDialogTheme"
         parent="@android:style/Theme.Material.Dialog">
         <item name="android:colorAccent">#ff4fc3f7</item>

@@ -10,4 +10,8 @@
     <color name="actionbar_background_color">#0288d1</color>
     <!-- Dark variant of the action bar color.  Ensure this stays in sync with Dialer version. -->
     <color name="actionbar_background_color_dark">#0277bd</color>
+
+    <!-- https://github.com/AICP/packages_services_Telephony/commit/770e777c05c9b2ea729c2d947511280665ffecef -->
+    <color name="dialer_background_color">@*android:color/background_material_dark</color>
+    <color name="dialer_divider_color">#44ffffff</color>
 </resources>
