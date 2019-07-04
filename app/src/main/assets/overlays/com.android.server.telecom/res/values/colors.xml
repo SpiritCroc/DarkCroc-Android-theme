@@ -16,9 +16,24 @@
 
 <!-- packages/services/Telecomm -->
 <resources>
-    <color name="theme_color">#0288d1</color>
 
     <color name="dialer_settings_actionbar_text_color">#ffffff</color>
     <color name="dialer_settings_actionbar_background_color">#0288d1</color>
     <color name="dialer_settings_color_dark">#0277bd</color>
+
+
+    <!--follows the dialer theme color-->
+    <color name="theme_color">#0288d1</color>
+    <color name="background_color">@*android:color/background_material_dark</color>
+
+    <!--Use the one consistence with dialer-->
+    <color name="blocked_numbers_divider_color">#80ffffff</color>
+    <color name="blocked_numbers_primary_text_color">#ffffffff</color>
+    <color name="blocked_numbers_secondary_text_color">#b3ffffff</color>
+
+    <!--follows dialer color-->
+    <!--
+    <color name="notification_action_answer">#097138</color>
+    <color name="notification_action_decline">#A52714</color>
+    -->
 </resources>
