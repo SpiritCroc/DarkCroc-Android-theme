@@ -16,9 +16,9 @@
  -->
 <resources>
     <style name="AppThemeBase" parent="@*com.ruesga.rview:style/Theme.AppCompat.NoActionBar">
-        <item name="@*com.ruesga.rview:attr/colorPrimary">#05668d</item>
-        <item name="@*com.ruesga.rview:attr/colorPrimaryDark">#044c69</item>
-        <item name="@*com.ruesga.rview:attr/colorAccent">#f44336</item>
+        <item name="*com.ruesga.rview:colorPrimary">#05668d</item>
+        <item name="*com.ruesga.rview:colorPrimaryDark">#044c69</item>
+        <item name="*com.ruesga.rview:colorAccent">#f44336</item>
         <item name="android:windowNoTitle">true</item>
         <!--
         <item name="android:textColorPrimary">#00ff00</item>
@@ -32,17 +32,17 @@
         <item name="android:textColorTertiaryInverse">#b3ffffff</item>
     </style>
     <style name="SearchView">
-        <item name="@*com.ruesga.rview:attr/floatingSearch_suggestionRightIconColor">#f44336</item>
-        <item name="@*com.ruesga.rview:attr/floatingSearch_searchBarTextSize">12sp</item>
-        <item name="@*com.ruesga.rview:attr/floatingSearch_searchSuggestionTextSize">10sp</item>
+        <item name="*com.ruesga.rview:floatingSearch_suggestionRightIconColor">#f44336</item>
+        <item name="*com.ruesga.rview:floatingSearch_searchBarTextSize">12sp</item>
+        <item name="*com.ruesga.rview:floatingSearch_searchSuggestionTextSize">10sp</item>
 
-        <item name="@*com.ruesga.rview:attr/floatingSearch_backgroundColor">#ff424242</item>
-        <item name="@*com.ruesga.rview:attr/floatingSearch_viewTextColor">#ffffffff</item>
-        <item name="@*com.ruesga.rview:attr/floatingSearch_hintTextColor">#80ffffff</item>
-        <item name="@*com.ruesga.rview:attr/floatingSearch_dividerColor">#ff616161</item>
-        <item name="@*com.ruesga.rview:attr/floatingSearch_clearBtnColor">#ffffffff</item>
-        <item name="@*com.ruesga.rview:attr/floatingSearch_leftActionColor">#ffffffff</item>
-        <item name="@*com.ruesga.rview:attr/floatingSearch_menuItemIconColor">#ffffffff</item>
-        <item name="@*com.ruesga.rview:attr/floatingSearch_actionMenuOverflowColor">#ffffffff</item>
+        <item name="*com.ruesga.rview:floatingSearch_backgroundColor">#ff424242</item>
+        <item name="*com.ruesga.rview:floatingSearch_viewTextColor">#ffffffff</item>
+        <item name="*com.ruesga.rview:floatingSearch_hintTextColor">#80ffffff</item>
+        <item name="*com.ruesga.rview:floatingSearch_dividerColor">#ff616161</item>
+        <item name="*com.ruesga.rview:floatingSearch_clearBtnColor">#ffffffff</item>
+        <item name="*com.ruesga.rview:floatingSearch_leftActionColor">#ffffffff</item>
+        <item name="*com.ruesga.rview:floatingSearch_menuItemIconColor">#ffffffff</item>
+        <item name="*com.ruesga.rview:floatingSearch_actionMenuOverflowColor">#ffffffff</item>
     </style>
 </resources>

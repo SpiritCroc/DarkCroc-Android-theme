@@ -10,8 +10,8 @@
         <item name="android:colorSecondary">@*android:color/secondary_material_settings</item>
 
         <item name="android:presentationTheme">@*android:style/Theme.Material.Settings.Dialog.Presentation</item>
-        <item name="@*android:attr/searchDialogTheme">@*android:style/Theme.Material.Settings.SearchBar</item>
-        <item name="@*android:attr/panelMenuListTheme">@*android:style/Theme.Material.Settings.CompactMenu</item>
+        <item name="*android:searchDialogTheme">@*android:style/Theme.Material.Settings.SearchBar</item>
+        <item name="*android:panelMenuListTheme">@*android:style/Theme.Material.Settings.CompactMenu</item>
     </style>
 
     <!-- Default theme for Settings and activities launched from Settings. -->
@@ -21,8 +21,8 @@
         <item name="android:colorSecondary">@*android:color/secondary_material_settings</item>
 
         <item name="android:presentationTheme">@*android:style/Theme.Material.Settings.Dialog.Presentation</item>
-        <item name="@*android:attr/searchDialogTheme">@*android:style/Theme.Material.Settings.SearchBar</item>
-        <item name="@*android:attr/panelMenuListTheme">@*android:style/Theme.Material.Settings.CompactMenu</item>
+        <item name="*android:searchDialogTheme">@*android:style/Theme.Material.Settings.SearchBar</item>
+        <item name="*android:panelMenuListTheme">@*android:style/Theme.Material.Settings.CompactMenu</item>
     </style>
 
     <style name="Theme.Material.Settings.BaseDialog" parent="@*android:style/Theme.Material.BaseDialog">

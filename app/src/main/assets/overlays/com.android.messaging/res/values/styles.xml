@@ -24,17 +24,17 @@
 
     <style name="BugleTheme" parent="@*com.android.messaging:style/Theme.AppCompat">
         <item name="android:dropDownListViewStyle">@*com.android.messaging:style/DropDownListViewStyle</item>
-        <item name="@*com.android.messaging:attr/colorPrimary">#689F38</item>
-        <item name="@*com.android.messaging:attr/colorPrimaryDark">#537F2D</item>
-        <item name="@*com.android.messaging:attr/colorAccent">#689F38</item>
+        <item name="*com.android.messaging:colorPrimary">#689F38</item>
+        <item name="*com.android.messaging:colorPrimaryDark">#537F2D</item>
+        <item name="*com.android.messaging:colorAccent">#689F38</item>
         <item name="android:colorPrimary">#689F38</item>
         <item name="android:colorPrimaryDark">#537F2D</item>
         <item name="android:colorAccent">#689F38</item>
         <!--
         <item name="android:textColorHighlight">@color/text_highlight_color</item>
         -->
-        <item name="@*com.android.messaging:attr/actionBarStyle">@*com.android.messaging:style/BugleActionBar</item>
-        <item name="@*com.android.messaging:attr/apnPreferenceStyle">@*com.android.messaging:style/ApnPreference</item>
+        <item name="*com.android.messaging:actionBarStyle">@*com.android.messaging:style/BugleActionBar</item>
+        <item name="*com.android.messaging:apnPreferenceStyle">@*com.android.messaging:style/ApnPreference</item>
     </style>
 
     <!--
@@ -55,14 +55,14 @@
 
     <style name="BugleTheme.ConversationListActivity" parent="@*com.android.messaging:style/Theme.AppCompat">
         <item name="android:dropDownListViewStyle">@*com.android.messaging:style/DropDownListViewStyle</item>
-        <item name="@*com.android.messaging:attr/colorPrimary">#689F38</item>
-        <item name="@*com.android.messaging:attr/colorPrimaryDark">#537F2D</item>
-        <item name="@*com.android.messaging:attr/colorAccent">#689F38</item>
+        <item name="*com.android.messaging:colorPrimary">#689F38</item>
+        <item name="*com.android.messaging:colorPrimaryDark">#537F2D</item>
+        <item name="*com.android.messaging:colorAccent">#689F38</item>
         <item name="android:colorPrimary">#689F38</item>
         <item name="android:colorPrimaryDark">#537F2D</item>
         <item name="android:colorAccent">#689F38</item>
-        <item name="@*com.android.messaging:attr/actionBarStyle">@*com.android.messaging:style/BugleActionBar</item>
-        <item name="@*com.android.messaging:attr/apnPreferenceStyle">@*com.android.messaging:style/ApnPreference</item>
+        <item name="*com.android.messaging:actionBarStyle">@*com.android.messaging:style/BugleActionBar</item>
+        <item name="*com.android.messaging:apnPreferenceStyle">@*com.android.messaging:style/ApnPreference</item>
         <!--
         <item name="android:windowBackground">@android:color/background_light</item>
         -->
@@ -70,14 +70,14 @@
 
     <style name="BugleTheme.ArchivedConversationListActivity" parent="@*com.android.messaging:style/Theme.AppCompat">
         <item name="android:dropDownListViewStyle">@*com.android.messaging:style/DropDownListViewStyle</item>
-        <item name="@*com.android.messaging:attr/colorPrimary">#303030</item>
-        <item name="@*com.android.messaging:attr/colorPrimaryDark">#212121</item>
-        <item name="@*com.android.messaging:attr/colorAccent">#689F38</item>
+        <item name="*com.android.messaging:colorPrimary">#303030</item>
+        <item name="*com.android.messaging:colorPrimaryDark">#212121</item>
+        <item name="*com.android.messaging:colorAccent">#689F38</item>
         <item name="android:colorPrimary">#303030</item>
         <item name="android:colorPrimaryDark">#212121</item>
         <item name="android:colorAccent">#689F38</item>
-        <item name="@*com.android.messaging:attr/actionBarStyle">@*com.android.messaging:style/BugleActionBar</item>
-        <item name="@*com.android.messaging:attr/apnPreferenceStyle">@*com.android.messaging:style/ApnPreference</item>
+        <item name="*com.android.messaging:actionBarStyle">@*com.android.messaging:style/BugleActionBar</item>
+        <item name="*com.android.messaging:apnPreferenceStyle">@*com.android.messaging:style/ApnPreference</item>
     </style>
 
     <!--
@@ -103,9 +103,9 @@
     </style>
 
     <style name="BugleActionBar" parent="@*com.android.messaging:style/Widget.AppCompat.ActionBar.Solid">
-        <item name="@*com.android.messaging:attr/height">56dp</item>
-        <item name="@*com.android.messaging:attr/displayOptions">showTitle</item>
-        <item name="@*com.android.messaging:attr/titleTextStyle">@style/BugleActionBarTitleTextStyle</item>
+        <item name="*com.android.messaging:height">56dp</item>
+        <item name="*com.android.messaging:displayOptions">showTitle</item>
+        <item name="*com.android.messaging:titleTextStyle">@style/BugleActionBarTitleTextStyle</item>
     </style>
 
     <style name="BugleActionBarTitleTextStyle" parent="@*com.android.messaging:style/TextAppearance.AppCompat.Widget.ActionBar.Title">

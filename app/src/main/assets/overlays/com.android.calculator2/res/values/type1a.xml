@@ -15,8 +15,8 @@
         <item name="android:textColor">#FFF</item>
 
         <!-- Attributes from android.support.v7.gridlayout -->
-        <item name="@*com.android.calculator2:attr/layout_gravity">fill</item>
-        <item name="@*com.android.calculator2:attr/layout_rowWeight">1</item>
-        <item name="@*com.android.calculator2:attr/layout_columnWeight">1</item>
+        <item name="*com.android.calculator2:layout_gravity">fill</item>
+        <item name="*com.android.calculator2:layout_rowWeight">1</item>
+        <item name="*com.android.calculator2:layout_columnWeight">1</item>
     </style>
 </resources>

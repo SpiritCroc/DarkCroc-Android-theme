@@ -17,16 +17,16 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <style name="DocumentsTheme" parent="@*com.android.documentsui:style/Theme.AppCompat">
-        <item name="@*com.android.documentsui:attr/actionBarWidgetTheme">@null</item>
-        <item name="@*com.android.documentsui:attr/actionBarTheme">@*com.android.documentsui:style/ActionBarTheme</item>
-        <item name="@*com.android.documentsui:attr/actionBarPopupTheme">@*com.android.documentsui:style/ActionBarPopupTheme</item>
+        <item name="*com.android.documentsui:actionBarWidgetTheme">@null</item>
+        <item name="*com.android.documentsui:actionBarTheme">@*com.android.documentsui:style/ActionBarTheme</item>
+        <item name="*com.android.documentsui:actionBarPopupTheme">@*com.android.documentsui:style/ActionBarPopupTheme</item>
 
         <item name="android:colorPrimaryDark">@*android:color/material_blue_grey_900</item>
         <item name="android:colorPrimary">@*android:color/material_blue_grey_800</item>
         <item name="android:colorAccent">@*android:color/accent_device_default_dark</item>
-        <item name="@*com.android.documentsui:attr/colorPrimaryDark">@*android:color/material_blue_grey_900</item>
-        <item name="@*com.android.documentsui:attr/colorPrimary">@*android:color/material_blue_grey_800</item>
-        <item name="@*com.android.documentsui:attr/colorAccent">@*android:color/accent_device_default_dark</item>
+        <item name="*com.android.documentsui:colorPrimaryDark">@*android:color/material_blue_grey_900</item>
+        <item name="*com.android.documentsui:colorPrimary">@*android:color/material_blue_grey_800</item>
+        <item name="*com.android.documentsui:colorAccent">@*android:color/accent_device_default_dark</item>
 
         <item name="android:listDivider">@*android:drawable/list_divider_material</item>
 
