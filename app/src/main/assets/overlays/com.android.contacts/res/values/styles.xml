@@ -275,4 +275,9 @@
         <!-- Ensure the status bar color matches the background -->
         <item name="android:colorPrimaryDark">@android:color/black</item>
     </style>
+
+    <style name="DrawerSecondLineSummaryTextStyle" parent="@*com.android.contacts:style/DrawerItemTextStyle">
+        <item name="android:textColor">#b3ffffff</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
 </resources>
