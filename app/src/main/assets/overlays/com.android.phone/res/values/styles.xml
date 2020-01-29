@@ -41,8 +41,8 @@
 
     <style name="DialerSettingsLight" parent="@*com.android.phone:style/SettingsLight">
         <!-- Action bar.-->
-        <item name="android:tint">@*com.android.phone:color/dialer_secondary_text_color</item>
         <!--
+        <item name="android:tint">@*com.android.phone:color/dialer_secondary_text_color</item>
         <item name="android:windowBackground">@color/dialer_background_color</item>
         <item name="android:actionModeBackground">@color/dialer_background_color</item>
         <item name="android:windowLightStatusBar">true</item>
