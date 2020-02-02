@@ -13,7 +13,7 @@ Dark material theme for the Substratum Theme Engine
 IMPORTANT: You need the Substratum theming platform working on your device! Read the inbuilt information before reporting any issues!
 
 Theme for Substratum, originally based on the default AOSP dark material colors; then extended to provide more variants to allow configuration according to the user's taste.
-This is the successor theme of the Default Dark theme series for newer Android versions, starting with Android 9.
+This is the successor theme of the Default Dark theme series for Android 9.
 
 Available accent colors include:
 Amber, blue, cyan, green, lime, orange, pink, purple, red, white, yellow.

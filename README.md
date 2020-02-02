@@ -1,6 +1,6 @@
 # DarkCroc Android Theme
 
-A dark theme targeting Android 9.0 or higher, freely adapting the default material dark colors.
+A dark theme targeting Android 9.0, freely adapting the default material dark colors.
 
 For information on supported platforms, available variants and how to report bugs, see [here](https://github.com/SpiritCroc/DarkCroc-Android-theme/blob/9.0-substratum/about.md).
 
@@ -14,6 +14,13 @@ With the release of Android 9.0, I wanted to do a fresh start for following reas
 - Without the ambition to create a "default" dark theme, I'm more free in theming decisions
 - I no longer feel the need to recreate the default Android look in dark (read: I don't really like the Android Pie look)
 - Many custom ROMs now have dark themes already included, so there's not that much of a need for a "default" dark theme (except maybe stock ROM users, which I was never actually targetting with my themes)
+
+
+### What about Android 10 and later?
+
+Android 10 and later won't be supported, but parts of the theme might still be applicable.
+Check [here](https://github.com/SpiritCroc/DarkCroc-Android-theme/issues/8#issuecomment-550277509) for a more detailed explanation.
+
 
 ## Download
 <a href="https://play.google.com/store/apps/details?id=de.spiritcroc.darkcroc.substratum" alt="Get it on Google Play"><img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" height="80"></a>

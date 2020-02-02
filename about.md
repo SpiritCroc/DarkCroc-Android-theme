@@ -2,7 +2,7 @@
 
 This theme is mainly targeted at operating systems ("ROMs") that are
     close to the Android Open Source Project (AOSP, "pure Android"),
-    with the primary focus being on custom ROMs.
+    version 9, with the primary focus being on custom ROMs.
 
 However, this theme might work as well on stock ROMs,
     as long as the vendor does not do too many modifications to the
